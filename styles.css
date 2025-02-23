@@ -24,6 +24,8 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav ul li {
@@ -33,6 +35,14 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #555;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #666;
 }
 
 main {
@@ -62,6 +72,14 @@ body.dark-mode header {
 
 body.dark-mode nav {
     background-color: #2a2a2a;
+}
+
+body.dark-mode nav ul li a {
+    background-color: #444;
+}
+
+body.dark-mode nav ul li a:hover {
+    background-color: #555;
 }
 
 body.dark-mode #darkModeToggle {
