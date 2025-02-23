@@ -1,0 +1,16 @@
+{
+  "name": "robloxstudio-coding-docs",
+  "version": "1.0.0",
+  "description": "Comprehensive documentation resource for Roblox Studio, covering instance manipulation and Lua coding.",
+  "main": "src/index.html",
+  "scripts": {
+    "build": "tsc",
+    "start": "lite-server"
+  },
+  "author": "not-sigmabread",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "lite-server": "^2.6.1"
+  }
+}
